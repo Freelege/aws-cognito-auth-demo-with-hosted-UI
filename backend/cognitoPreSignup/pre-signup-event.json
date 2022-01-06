@@ -1,0 +1,35 @@
+﻿/*
+{
+"Comments": [
+    "this is original input data from cloud watch for Cognito Pre-Signup trigger",
+  ]
+}
+*/
+
+{
+  "version": "1",
+  "region": "ap-southeast-2",
+  "userPoolId": "ap-southeast-2_JOuqkpOlS",
+  "userName": "bill.guan",
+  "callerContext": {
+    "awsSdkVersion": "aws-sdk-unknown-unknown",
+    "clientId": "6oncntbeeffc05e2biduc0qqu"
+  },
+  "triggerSource": "PreSignUp_SignUp",
+  "request": {
+    "userAttributes": {
+      "gender": "Male",
+      "phone_number": "+61425630665",
+      "given_name": "Bill",
+      "family_name": "Guan",
+      "email": "cipirin169@unigeol.com"
+    },
+    "validationData": null
+  },
+  "response": {
+    "autoConfirmUser": false,
+    "autoVerifyEmail": false,
+    "autoVerifyPhone": false
+  }
+}
+         
